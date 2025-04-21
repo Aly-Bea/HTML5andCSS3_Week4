@@ -1,6 +1,8 @@
 
             body {
-                background-color: rgb(11, 71, 39);
+                background-image: url('cc.png');
+                background-size: 100% 100%;
+                background-position: center;
                 color: black;
                 margin: 0;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -110,7 +112,7 @@
                 color: #333;
             }
             ul#topnav li a:hover {
-                background: #cc9;
+                background: #ffa7a7;
                 color: #111;
             }
             #sidebar {
@@ -181,7 +183,7 @@
 
             The advantage of using a selector like this is that it allows for precise targeting within a specific part of your webpage, making it easier to style only the elements you intend without affecting other elements elsewhere on the page. */
             #sidebar ul li a:hover {
-                background-color: #cc9;
+                background-color: #ffa7a7;
                 color: #fff;
             }
 
@@ -202,6 +204,19 @@
 
             Using a selector like this allows you to apply specific styles to the ::before pseudo-element of list items in a precise part of your HTML document. This can be helpful for achieving a consistent design or aesthetic in your lists. */
 
+            #table table {
+                margin: auto;
+                text-align: center;
+            }
+            
+            #table h1 {
+                font-weight: bold;
+                font-size: 20px; 
+                color: red; 
+                text-align: center;
+            }
+
+
             #content {
                 text-align:left;
                 padding: 20px;
@@ -219,11 +234,10 @@
                 list-style: none;
             }
             #footer {
-                padding: 10px;
-                height: 20px;
+                height: auto;
+                text-align: center;
                 color: #333;
                 font-size: 12px;
-                /* Camille was here */
                 background: #c9fdff;
                 clear: both;
                 border-radius: 8px;
