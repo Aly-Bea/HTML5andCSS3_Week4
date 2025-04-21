@@ -74,6 +74,22 @@
                 text-align: center;
                 color: 	#47d9de;
             }
+            #cbanner {
+                position: relative;
+                padding: 10px;
+                height: 175px;
+                border: 0px;
+                color: #bf5c2a;
+                background-image: url('banner.png');
+                background-size: 100% 100%;
+                background-position: center;
+                border-radius: 8px;
+            }   
+            #cbanner p {
+                font-size:50px;
+                text-align: center;
+                color: #c9fdff;
+            }
             ul#topnav { /*#topnav is applied as ul (literal HTML element) */
                 list-style-type: none;
                 margin: 0 0 0 1%;
