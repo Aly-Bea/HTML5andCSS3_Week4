@@ -114,49 +114,26 @@
             ul#topnav li a:hover {
                 background: #ffa7a7;
                 color: #111;
-            }
+            }                        
             #sidebar {
-                background: #ffd1ff;
-                float: right;
-                width: 200px;
-                padding: 15px;
-                font-size: 12px;
-            }
-            #sidebar-left {
                 background: #c9fdff;
                 float: left;
                 width: 200px;
                 padding: 15px;
                 font-size: 12px;
             }
-
-
             #sidebar h2 {
                 background-color: inherit;
                 color: #996;
                 font:  normal 16px Arial, sans-serif;
                 border-bottom: 2px solid rgb(212, 166, 13);
                 padding:  8px 0 5px 0;
-            }
-            #sidebar-left h2 {
-                background-color: inherit;
-                color: #996;
-                font:  normal 16px Arial, sans-serif;
-                border-bottom: 2px solid rgb(212, 166, 13);
-                padding:  8px 0 5px 0;
-            }
-
+            }            
             #sidebar ul {
                 list-style: none;
                 padding: 2px;
                 margin: 0;
-            }
-            #sidebar-left ul {
-                list-style: none;
-                padding: 2px;
-                margin: 0;
-            }
-
+            }            
             #sidebar ul li {
                 list-style-position: inside;
                 padding: 0 0 10px 20px;
